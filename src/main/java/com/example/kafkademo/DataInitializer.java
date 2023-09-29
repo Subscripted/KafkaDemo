@@ -36,8 +36,8 @@ public class DataInitializer {
         // den auskommentierten Code habe ich nur mal zum Testen der H2 und von JPA geschrieben
 //        var now = LocalDateTime.now();
 //
-//        List<Measurement> measurements = LongStream.range(1, 10)
-//                .mapToObj(i -> new Measurement(i, VALUES.get(RANDOM.nextInt(SIZE)), now.plusDays(i)))
+//        List<Measurement> measurements = LongStream.range(0, 100)
+//                .mapToObj(i -> new Measurement(1L, VALUES.get(RANDOM.nextInt(SIZE)), now.plusHours(i)))
 //                .collect(Collectors.toList());
 //
 //        measurementRepository.saveAllAndFlush(measurements);
